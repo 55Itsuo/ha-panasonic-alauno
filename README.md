@@ -5,6 +5,8 @@
 An **unofficial** Home Assistant custom integration for Panasonic Alauno toilets (tested with the S160 Type 1K, model `CH1601WSSK`). It reads the same cloud data the Alauno smartphone app shows.
 
 > **Disclaimer**: This project is not affiliated with, endorsed by, or supported by Panasonic. It uses the app's private cloud API, which can change or stop working at any time. Use it at your own risk, only with your own account and your own devices, and check the terms of service that apply to you.
+>
+> **No support**: This is a personal hobby project provided as-is, with no support. Issues and pull requests may not receive a response.
 
 ## Features
 
