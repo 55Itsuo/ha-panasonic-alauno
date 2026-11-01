@@ -1,0 +1,51 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Panasonic Alauno login",
+        "description": "1) **Right-click and copy** the link below, paste it into a private/incognito window that already has the developer tools (Network tab) open, and log in with your CLUB Panasonic ID: [Login link]({auth_url})\n2) After login, paste the full callback?code=... URL shown in red in the Network tab (or just the code value) below. The code expires after about a minute.\n3) Enter the x-api-key that the app sends with its requests.",
+        "data": {
+          "callback": "Callback URL or code",
+          "api_key": "x-api-key"
+        }
+      },
+      "devices": {
+        "title": "Toilets to import",
+        "data": {
+          "devices": "Toilets"
+        }
+      }
+    },
+    "error": {
+      "auth": "Login failed (the code may have expired). Open the login link again.",
+      "cannot_connect": "Could not connect. Check the x-api-key and the code."
+    },
+    "abort": {
+      "already_configured": "Already configured"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "last_used": {
+        "name": "Last used"
+      },
+      "today_count": {
+        "name": "Today's uses"
+      }
+    },
+    "binary_sensor": {
+      "detergent": {
+        "name": "Detergent tank"
+      },
+      "deodorant_filter": {
+        "name": "Deodorizing filter"
+      },
+      "nozzle": {
+        "name": "Cleaning nozzle"
+      },
+      "remote_battery": {
+        "name": "Remote battery"
+      }
+    }
+  }
+}

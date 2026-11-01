@@ -1,0 +1,51 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Panasonic アラウーノ ログイン",
+        "description": "1) 下のリンクを**右クリックしてコピー**し、開発者ツール（Network タブ）を先に開いたシークレットウィンドウに貼り付けて、CLUB Panasonic ID でログインします: [ログインリンク]({auth_url})\n2) ログイン後、Network タブに赤く表示される callback?code=... のURL全体（または code の値）を下に貼り付けます。コードは約1分で失効します。\n3) アプリ通信の x-api-key を入力します。",
+        "data": {
+          "callback": "コールバックURL または code",
+          "api_key": "x-api-key"
+        }
+      },
+      "devices": {
+        "title": "取り込む機器",
+        "data": {
+          "devices": "機器"
+        }
+      }
+    },
+    "error": {
+      "auth": "ログインに失敗しました（コードの期限切れの可能性）。URLを開き直してください。",
+      "cannot_connect": "接続に失敗しました。x-api-key とコードを確認してください。"
+    },
+    "abort": {
+      "already_configured": "すでに設定済みです"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "last_used": {
+        "name": "最終使用"
+      },
+      "today_count": {
+        "name": "今日の使用回数"
+      }
+    },
+    "binary_sensor": {
+      "detergent": {
+        "name": "洗剤タンク お手入れ"
+      },
+      "deodorant_filter": {
+        "name": "脱臭フィルター お手入れ"
+      },
+      "nozzle": {
+        "name": "洗浄ノズル お手入れ"
+      },
+      "remote_battery": {
+        "name": "リモコン電池 お手入れ"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "domain": "alauno",
+  "name": "Panasonic Alauno (アラウーノ)",
+  "codeowners": ["@55Itsuo"],
+  "config_flow": true,
+  "documentation_url": "https://github.com/55Itsuo/ha-panasonic-alauno",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/55Itsuo/ha-panasonic-alauno/issues",
+  "requirements": [],
+  "version": "0.1.1"
+}
