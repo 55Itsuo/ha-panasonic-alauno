@@ -1,8 +1,8 @@
-# Panasonic Alauno (アラウーノ) for Home Assistant
+# Panasonic ALaúno (アラウーノ) for Home Assistant
 
 [日本語版 / Japanese](README.ja.md)
 
-An **unofficial** Home Assistant custom integration for Panasonic Alauno toilets (tested with the S160 Type 1K, model `CH1601WSSK`). It reads the same cloud data the Alauno smartphone app shows.
+An **unofficial** Home Assistant custom integration for Panasonic ALaúno toilets (tested with the S160 Type 1K, model `CH1601WSSK`). It reads the same cloud data the Alauno smartphone app shows.
 
 > **Disclaimer**: This project is not affiliated with, endorsed by, or supported by Panasonic. It uses the app's private cloud API, which can change or stop working at any time. Use it at your own risk, only with your own account and your own devices, and check the terms of service that apply to you.
 >
@@ -37,7 +37,7 @@ The toilets have no local API (no open TCP ports, no ECHONET Lite response), so 
 
 1. HACS -> three dots (top right) -> **Custom repositories**.
 2. Add this repository's URL with category **Integration**.
-3. Install **Panasonic Alauno** and restart Home Assistant.
+3. Install **Panasonic ALaúno** and restart Home Assistant.
 
 ### Manual
 
@@ -45,7 +45,7 @@ Copy `custom_components/alauno` into your Home Assistant `config/custom_componen
 
 ## Setup
 
-1. **Settings -> Devices & services -> Add integration -> Panasonic Alauno**.
+1. **Settings -> Devices & services -> Add integration -> Panasonic ALaúno**.
 2. **Right-click the login link in the dialog and copy it** (do not just click it). Open a **new private/incognito window**, open the browser developer tools (Network tab) first, then paste the link and log in with your CLUB Panasonic ID.
 3. After login the browser tries to open a URL starting with `com.panasonic.jp.kbsbu.alauno://...`. The browser cannot open it, but the request `callback?code=...` appears (in red) in the Network tab. Copy its full URL (or just the `code` value) into the dialog. The code expires after about a minute, so paste it promptly.
 4. Enter the `x-api-key` that the app sends with its requests. This value is app-specific and is **not** included in this repository; you must obtain it yourself.
