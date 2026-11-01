@@ -1,6 +1,6 @@
 {
   "domain": "alauno",
-  "name": "Panasonic Alauno (アラウーノ)",
+  "name": "Panasonic ALaúno (アラウーノ)",
   "codeowners": ["@55Itsuo"],
   "config_flow": true,
   "documentation_url": "https://github.com/55Itsuo/ha-panasonic-alauno",
