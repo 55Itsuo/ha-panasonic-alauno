@@ -2,7 +2,7 @@
   "config": {
     "step": {
       "user": {
-        "title": "Panasonic Alauno login",
+        "title": "Panasonic ALaúno login",
         "description": "1) **Right-click and copy** the link below, paste it into a private/incognito window that already has the developer tools (Network tab) open, and log in with your CLUB Panasonic ID: [Login link]({auth_url})\n2) After login, paste the full callback?code=... URL shown in red in the Network tab (or just the code value) below. The code expires after about a minute.\n3) Enter the x-api-key that the app sends with its requests.",
         "data": {
           "callback": "Callback URL or code",
