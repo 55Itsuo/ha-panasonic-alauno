@@ -63,3 +63,7 @@
 ## ライセンス
 
 MIT（[LICENSE](LICENSE)）。作り方: [docs/how-it-was-built.md](docs/how-it-was-built.md)
+
+## AI の利用
+
+この統合は、AI（Anthropic の Claude）の支援を受けて開発しました（コードとドキュメントを含む）。動作確認は作者自身のアラウーノと Home Assistant 環境で行っています。
