@@ -63,3 +63,7 @@ Copy `custom_components/alauno` into your Home Assistant `config/custom_componen
 ## License
 
 MIT. See [LICENSE](LICENSE). How it was built: [docs/how-it-was-built.md](docs/how-it-was-built.md).
+
+## AI assistance
+
+This integration was developed with AI assistance (Anthropic's Claude), including the code and documentation. It was tested on the author's own ALaúno toilets and Home Assistant setup.
